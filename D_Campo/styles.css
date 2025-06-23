@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #2ecc71;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.user-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+#diario-wrapper {
+    padding: 20px;
+}
+
+.diario-container {
+    background-color: #e8d7f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.diario-container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.diario-content {
+    background-color: #f4d4e0;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.diario-content h2 {
+    margin: 0;
+}
+
+.edit-button, .share-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.share-button {
+    right: 100px;
+    background-color: #b0fc38;
+}
+
+.diario-entry {
+    margin-top: 20px;
+    position: relative;
+}
+
+.diario-entry img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.actions button {
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#add-diario-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dropzone.dragover {
+    border-color: #2ecc71;
+    background-color: #f0fff0;
+}

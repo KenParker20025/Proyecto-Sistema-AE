@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #F6E7F2, #F6E7F2); /* Fondo gradiente rosa pasteloso */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+        }
+
+/*Estilos para Registro.php*/
+.registro-container {
+    background-color: #8EFF9D; /* Color de fondo para el contenedor de registro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin-top: 40px; /* Agrega espacio en la parte superior del contenedor */
+}
+
+.title-container {
+    border: 2px solid #ccc; /* Borde del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #51bad4; /* Color de fondo */
+    margin-bottom: 15px; /* Espaciado inferior para separar del resto del contenido */
+}
+
+.container {
+    max-width: 400px; /* Ancho máximo del contenedor */
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: calc(100% - 22px); /* Ancho ajustado para que no sea tan largo */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #e70909; /* Color naranja para el botón de aceptar */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #eb251e; /* Cambia de color al pasar el mouse */
+}
+
+/*Estilos de Inicio.php*/
+.login-box {
+    background-color: #ffffff; /* Color de fondo para el recuadro */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+    display: flex;
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+        .login-box h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 36px;
+            color: #4A90E2; /* Color moderno */
+            font-family: 'Poppins', sans-serif; /* Fuente moderna */
+            text-shadow: 
+                0 0 5px #FFD700, /* Brillo dorado */
+                0 0 10px #FFD700,
+                0 0 15px #FFD700,
+                0 0 20px #FFD700,
+                0 0 25px #FFD700;
+            animation: fadeIn 2s forwards; /* Animación de desvanecimiento */
+            opacity: 0; /* Inicialmente invisible para animación */
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1; /* Hacer visible */
+            }
+        }
+.login-image {
+    margin-right: 0px;
+    max-width: 350px; /* Ancho máximo de la imagen */
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-buttons button {
+    padding: 12px 25px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra alrededor del botón */
+}
+
+.login-buttons button:hover {
+    background-color: #45a049; /* Cambia de color al pasar el mouse */
+}
+
+.login-buttons button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/*Estilos para Ingresar.php*/
+.login-container {
+    background-color: #8EFF9D; /* Color de fondo para el contenedor de login */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.tab button {
+    background-color: #add8e6; /* Color de fondo azul celeste pastel para las pestañas */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.tab button.active {
+    background-color: #87cefa; /* Color de fondo azul celeste más oscuro para la pestaña activa */
+}
+
+.tab-content {
+    display: none;
+    padding: 20px 0;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: calc(100% - 22px); /* Ancho ajustado para que no sea tan largo */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #F8AA89; /* Color naranja para el botón de aceptar */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #F8AA89; /* Cambia de color al pasar el mouse */
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #F8AA89; /* Borde naranja */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    object-fit: cover;
+}
+
+/*Estilos para EditarPerfil.php*/
+.body_perfil {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #F6E7F2, #F6E7F2); /* Fondo gradiente rosa pasteloso */
+}
+
+.navbar {
+    background-color: #2BD8B5; /* Color azul pastel para la barra de navegación */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff; /* Color blanco para los enlaces */
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.edit-profile-container {
+    background-color: #FFAEAE; /* Color de fondo para el recuadro de Edición de Perfil */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.edit-profile-container h2 {
+    margin-bottom: 20px;
+}
+
+.edit-profile-container button {
+    padding: 10px 20px;
+    background-color: #ffa500; /* Color naranja para los botones */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px; /* Ajusta el margen entre botones */
+}
+
+.edit-profile-container button:hover {
+    background-color: #ff8c00; /* Cambia de color al pasar el mouse */
+}
+
+.edit-profile-container input[type="text"],
+.edit-profile-container input[type="password"] {
+    width: calc(100% - 40px); /* Ajustar el ancho de los campos de entrada */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.edit-profile-container input[type="file"] {
+    display: none;
+}
+
+.edit-profile-container label.upload-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffa500; /* Color naranja para el botón de carga */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.edit-profile-container label.upload-btn:hover {
+    background-color: #ff8c00; /* Cambia de color al pasar el mouse */
+}
+
+.profile-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Ajusta el margen inferior */
+}
+
+.profile-preview img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Formato circular */
+    border: 2px solid #fff; /* Borde blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}

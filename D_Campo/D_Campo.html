@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario de Campo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#didacticos">A. Didactico</a>
+        <a href="#actividades">Actividades</a>
+        <div class="user-icon">
+            <img src="user-icon.png" alt="User Icon">
+        </div>
+    </div>
+
+    <div id="diario-wrapper">
+        <div class="diario-container">
+            <button class="back-button">⮐</button>
+            <h1>Diario de Campo</h1>
+            
+            <div class="diario-content">
+                <h2 class="diario-title">Diario de Campo 1</h2>
+                <button class="edit-button">Editar</button>
+                <button class="share-button">Compartir</button>
+                <div class="diario-entry">
+                    <img src="diario-image.jpg" alt="Diario de Campo">
+                    <div class="actions">
+                        <button class="download-button">⬇</button>
+                        <button class="print-button">🖨</button>
+                    </div>
+                </div>
+                <div class="dropzone" id="dropzone">
+                    <p>Arrastra y suelta documentos aquí (PDF, Word, PowerPoint)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="add-diario-button">Agregar Nuevo Diario de Campo</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
